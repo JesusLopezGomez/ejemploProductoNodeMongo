@@ -21,5 +21,5 @@ app.use('/product',useRouteProduct);
 // Iniciamos el servidor
 const PORT = process.env.PORT;
 app.listen(PORT, () => {
-  console.log(`Example app listening on port ${PORT}`)
+  console.log(`El servidor está escuchando por el puerto ${PORT}`)
 })
